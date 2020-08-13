@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    /* background-image: url('matrix.png'); */
+    filter: blur(50%);
+}
+
+h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-family: 'Nova Square',cursive;
+    color: #09b838;
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    text-shadow: 
+    1px 1px #02661d,
+    2px 2px #02661d,
+    3px 3px #02661d,
+    4px 4px #02661d,
+    5px 5px #02661d,
+    6px 6px #02661d,
+    7px 7px black,
+    8px 8px black,
+    9px 9px 10px #02661d,
+    10px 10px 10px #02661d,
+    11px 11px 10px #02661d,
+    12px 12px 10px #02661d
+    ;
+}
+
+footer{
+    color: rgb(65, 65, 65);
+    font-family: 'Nova Square', cursive;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
